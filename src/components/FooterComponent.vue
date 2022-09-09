@@ -8,11 +8,9 @@
 </template>
 
 <script>
+import '../styles/footer.sass'
 export default {
   name: "FooterComponent"
 }
 </script>
 
-<style>
-
-</style>

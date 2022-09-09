@@ -1,7 +1,9 @@
 <template>
-  <div class="gallery-card" id="card">
-    <h2 class="gallery-card-title">{{ title }}</h2>
-    <a href="" class="gallery-card-btn">Mais fotos</a>
+  <div class="gallery-card" >
+      <h2 class="gallery-card-title">{{ title }}</h2>
+      <a href="" class="gallery-card-btn">Mais fotos</a>
+    
+
   </div>
 </template>
 
@@ -15,6 +17,3 @@ export default {
 }
 </script>
 
-<style scoped>
-
-</style>
