@@ -8,9 +8,12 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 /* import specific icons */
 import { fas } from '@fortawesome/free-solid-svg-icons'
 
-import App from './App.vue'
+import {fab} from '@fortawesome/free-brands-svg-icons'
 
-library.add(fas)
+import App from './App.vue'
+import './assets/tailwind.css'
+
+library.add(fas, fab)
 
 
 
